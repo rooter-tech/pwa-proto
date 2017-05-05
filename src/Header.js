@@ -4,6 +4,7 @@ import AppBar from 'material-ui/AppBar';
 import NavigationMenu from 'material-ui/svg-icons/navigation/menu';
 import { white } from 'material-ui/styles/colors';
 import IconButton from 'material-ui/IconButton';
+import HeaderRight from './HeaderRight';
 
 const RooterIMG = () => 
     <div>
@@ -18,7 +19,8 @@ class Header extends Component {
                 <AppBar
                     title=''
                     iconElementLeft={<RooterIMG />}
-                    iconClassNameRight="muidocs-icon-navigation-expand-more"
+                    iconElementRight={<HeaderRight coinsCount={3} passionScore={6} />}
+                    style={{ backgroundColor: 'rgb(50,110,117)' }}
                 />
             </div>
         );
