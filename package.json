@@ -6,8 +6,12 @@
     "react-scripts": "0.9.5"
   },
   "dependencies": {
+    "axios": "^0.16.1",
+    "es6-promise": "^4.1.0",
+    "material-ui": "^0.18.0",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "react-tap-event-plugin": "^2.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
