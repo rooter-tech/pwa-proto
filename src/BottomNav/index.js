@@ -24,7 +24,7 @@ class BottomNav extends Component {
     select = (index) => this.setState({selectedIndex: index});
     render() {
         return (
-            <div style={{ position: 'absolute', width: '100%', bottom: '0' }}>
+            <div style={{ position: 'fixed', width: '100%', bottom: '0' }}>
                 <Paper zDepth={1}>
                     <BottomNavigation selectedIndex={this.state.selectedIndex}>
                     <BottomNavigationItem

@@ -1,0 +1,37 @@
+.match-image-container {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    height: 200px;
+}
+.match-info {
+    display: flex;
+    color: #fff;
+    height: 40%;
+    justify-content: space-around;
+    align-items: center;
+}
+.home-team,.away-team {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    justify-content: center;
+}
+.home-team {
+    text-align: right;
+}
+.away-team {
+    text-align: left;
+}
+.vs-circle {
+    padding: 5px;
+    border-radius: 50%;
+    color: #fff;
+    background: red;
+}
+.home-image,.away-image {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px
+}

@@ -15,7 +15,7 @@ const RooterIMG = () =>
 class Header extends Component {
     render() {
         return (
-            <div>
+            <div style={{ position: 'fixed', width: '100%', top: '0' }}>
                 <AppBar
                     title=''
                     iconElementLeft={<RooterIMG />}
