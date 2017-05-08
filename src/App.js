@@ -21,7 +21,7 @@ class App extends Component {
     this.fetchMatchInfo();
   }
   fetchMatchInfo() {
-    axios.get('http://first-round.rooter.io/api/Sports/1/matches?type=ACTIVE', {
+    axios.get('https://first-round.rooter.io/api/Sports/1/matches?type=ACTIVE', {
       headers: {
         Authorization: authToken, 
       }

@@ -5,7 +5,6 @@ var CACHE_NAME = 'rooter-cache-v1';
 
 self.addEventListener("activate", event => {
   const cacheWhitelist = [CACHE_NAME];
-  console.log(caches);
   event.waitUntil(
     caches.keys()
       .then(keyList =>
@@ -26,9 +25,10 @@ self.addEventListener('install', function(event) {
         .then(function(cache) {
           fetch("asset-manifest.json")
             .then(response => {
-              response.json()
+              return response.json()
             })
             .then(assets => {
+              console.log(assets);
               const urlsToCache = [
                 "/",
                 assets["main.js"]
