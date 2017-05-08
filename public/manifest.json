@@ -1,0 +1,16 @@
+{
+  "short_name": "Rooter",
+  "name": "Rooter",
+  "description": "Connect with sports fans around you",
+  "icons": [
+    {
+      "src":"android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/?utm_source=homescreen",
+  "background_color": "#C33764",
+  "theme_color": "#C33764",
+  "display": "standalone"
+}

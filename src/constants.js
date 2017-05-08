@@ -1,1 +1,1 @@
-export const authToken = 'admin1494170560944';
+export const authToken = 'admin1494230433059';
